@@ -1,1 +1,2 @@
-# my-first-GH-repo
+# my-first-GH-repo This is a sample project for learning how to use VSCode with GitHub 
+save 2
