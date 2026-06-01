@@ -1,0 +1,98 @@
+
+body {
+  background-color: #e5e5e5;
+  font-family: Arial, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+header {
+  background-color: #5964f8;
+  color: rgb(250, 250, 250);
+  padding: 20px 60px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.header-text {
+  display: inline-block;
+  width: 70%;
+  text-align: center;
+  vertical-align: middle;
+}
+.profile-img {
+  Display: inline-block;
+  width: 200px;
+  height: 300px;
+  border: 4px solid white;
+  border-radius: 12px;
+  vertical-align: middle;
+
+}
+ #about {
+  text-align: center;
+}
+#about{  color: rgb(249, 240, 240);
+  border: 3px solid #080418;
+  border-radius: 12px;
+  background-color:hsl(329, 81%, 55%);
+  font-size: 24px;
+
+  padding: 20px;
+}
+
+nav a {
+  color: white;
+  margin: 15px;
+  font-weight: bold;
+}
+
+#projects {
+  text-align: center;
+}
+
+.project-card {
+  display: inline-block;
+  width: 20%;
+  height: 500px;
+  margin: 20px;
+  vertical-align: top;
+  background-color: hsl(329, 81%, 55%);
+  padding: 10px;
+  box-shadow: 5px 5px #060215;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.project-card img {
+  display: block;
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+  object-position: center;
+  background-color: hsl(329, 81%, 55%);
+  margin: 0 auto 10px auto;
+  font color: white;
+}
+
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  background-color:#5964f8;
+}
+#details {
+  text-align: center;
+}
+
+footer {
+  background-color: #16045e;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}

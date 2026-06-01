@@ -3,63 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta  name=" "description "content"
-    <title>my first webpage</title>
-  
+    <meta  name="description" content="Beat Modules portfolio">
+    <title>Beat Modules portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <h1> why vaping is bad for you
-  </h1>  
-  <h2> its not cool </h2>
+<main>
+  <header>
+    <div class="header-text">
+      <h1> <u>Oliver's Portfolio</u></h1>
 
-   </p>
-   <img src="./images/test.png" alt="Test Image" height="300" width="200">
- <div>
-<a href="https://www.beatmodules.com/" target="_blank"> Beat The Vape</a>
+      <nav> 
+        <a href="#about">about</a>
+        <a href="#projects">projects</a>
+        <a href="#contact">contact</a>
+   </nav>
+    </div>
+
+    <img src="./images/profilepic.png" alt="Picture of Oliver" class="profile-img">
+  </header>
+
+  
+<div>
+  <br>
+    <section id="about">
+      <h2>About</h2>
+      <h4>Olly is a business owner, cancer researcher and fundraiser. He has worked on several projects over the last few years, including business ventures, research projects and fundraising work.</h4>
+    </section>
 </div>
-</body>
-<p> and sucks  bad </p>
+    <section id="projects">
+      <h2>Projects</h2>
 
-<form action="submit.php" method="post">
+      <article class="project-card">
+        <img src="./images/website.png" alt="Beat Modules project image">
+        <h3>Beat Modules</h3>
+        <p>A digital education platform designed to help young people learn about health and wellbeing through interactive content.</p>
+      </article>
 
+      <article class="project-card">
+        <img src="./images/cancermasters.png" alt="Cancer research project image">
+        <h3>Cancer Research Project</h3>
+        <p>A research project exploring how chemotherapy affects different cell models and biological pathways.</p>
+      </article>
+    </section>
+
+    <section id="contact">
+      
+    <section id="details">
+      <h2> <u>Contact</u></h2>
+      <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
+      <p>Phone: <a href="tel:07123456789">07123456789</a></p>
+</section>
+      <form action="submit.php" method="post">
         <label for="name">Name:</label>
         <input type="text" name="name" id="name">
-        <br>
+
         <label for="email">Email:</label>
         <input type="email" name="email" id="email">
-        <br>
-        <label for="password">Password:</label>
-        <input type="password" name="password" id="password">
-        <br>
-       
-<br>
-        <label for="role">I am a:</label>
-<select name="role" id="role">
-    <option value="">Please select</option>
-    <option value="student">Student</option>
-    <option value="parent">Parent</option>
-    <option value="teacher">Teacher</option>
-    <option value="other">Other</option>
-</select>
 
-        <br>
-        <label for="date">Preferred date:</label>
-<input type="date" name="date" id="date">
-<label for="colour">Choose a colour:</label>
-<input type="color" name="colour" id="colour">
-<br>
         <label for="message">Message:</label>
-        
-        <br>
         <textarea name="message" id="message" rows="8" cols="40"></textarea>
-        <br>
- <input type="button" value="Make an enquiry">
 
-</form>
+        <input type="submit" value="Make an enquiry">
+      </form>
+    </section>
+</main>
 
+  <footer>
+    <p>© 2026 Oliver Le Brun. All rights reserved.
+       <br>
+       <a href="https://www.linkedin.com/in/oliver-le-brun-90609423a" target="_blank">Linkedin</a>
+    </p>
+    <div>
+       
+     
+    </div>
+  </footer>
 
-
-
+</body>
 
 </html>
 
