@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../../my-first-gh-repo"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../week-2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "week-3"
+	}
+}
